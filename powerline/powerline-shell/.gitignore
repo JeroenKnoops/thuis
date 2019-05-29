@@ -1,4 +1,3 @@
-powerline-shell.py
 *.py[co]
 config.py
 powerline_shell.egg-info/
