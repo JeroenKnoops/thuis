@@ -1,0 +1,21 @@
+[user]
+	email = jeroen.knoops@gmail.com
+	name = Jeroen Knoops
+	signingkey = 6E29185415F122634E17641F0A158F3868DCE654
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[pull]
+	rebase = true
+[commit]
+  gpgsign = true
+[pager]
+  diff = diff-so-fancy | less --tabs=1,5 -RFX
+  show = diff-so-fancy | less --tabs=1,5 -RFX
+[init]
+	templatedir = ~/.git-templates
+[alias]
+	adog = log --all --decorate --oneline --graph
+	adog2 = log --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto)%d%C(reset) %C(normal)%s%C(reset) %C(dim white)%an%C(reset) %C(dim blue)(%ar)%C(reset)' --all

@@ -1,0 +1,10 @@
+{
+	"optOut": false,
+	"lastUpdateCheck": 1558865477868,
+	"update": {
+		"latest": "3.3.0",
+		"current": "3.2.2",
+		"type": "minor",
+		"name": "semantic-git-commit-cli"
+	}
+}

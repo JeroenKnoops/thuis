@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monodroid>
+  <android-ndk path="/Users/jeroenknoops/Library/Developer/Xamarin/android-ndk/android-ndk-r14b" />
+  <android-sdk path="/Users/jeroenknoops/Library/Developer/Xamarin/android-sdk-macosx" />
+</monodroid>
