@@ -17,6 +17,7 @@ brew cask install google-chrome visual-studio-code atom
 brew install fish stow git hub node tmux vim wget openssl libyaml libffi figlet toilet httpie jq rbenv thefuck direnv diff-so-fancy
 brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
+brew cask install java 
 echo `which fish` >> /etc/shells
 chsh -s `which fish`
 cd $HOME
