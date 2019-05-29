@@ -19,7 +19,7 @@ chsh -s `which fish`
 cd $HOME
 git clone --recursive git@github.com:jeroenknoops/thuis.git
 cd $HOME/thuis
-stow fish git npm vim yarn
+stow fish git iterm2 npm powerline-shell vim yarn
 fish
 vim +BundleInstall +qall
 ```
