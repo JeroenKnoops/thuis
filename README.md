@@ -4,6 +4,10 @@ My dotfiles
 
 ## Mac OS
 
+### ssh
+
+Make sure you've setup your `.ssh` directory
+
 ### Tools
 iTerm2 : https://www.iterm2.com/version3.html
 
