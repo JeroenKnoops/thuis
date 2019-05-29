@@ -1,5 +1,5 @@
 function fish_prompt
-    ~/.powerline-shell/powerline-shell.py --cwd-max-depth=4 $status --shell bare ^/dev/null
+    ~/powerline-shell/powerline-shell.py --cwd-max-depth=4 $status --shell bare ^/dev/null
 end
 
 set -gx RBENV_ROOT /usr/local/var/rbenv  
