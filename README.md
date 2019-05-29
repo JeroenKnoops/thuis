@@ -25,3 +25,6 @@ fish
 vim +BundleInstall +qall
 ```
 
+### iTerm settings
+Load configuration from file.
+General > Load preferences from a custom folder or URL: ~/thuis/profile
