@@ -18,6 +18,7 @@ brew install fish stow git hub node tmux vim wget openssl libyaml libffi figlet 
 brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
 brew cask install java 
+brew cask install slack 
 echo `which fish` >> /etc/shells
 chsh -s `which fish`
 cd $HOME
