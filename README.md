@@ -26,6 +26,8 @@ cd $HOME/thuis
 stow fish git iterm2 npm powerline vim yarn
 fish
 vim +BundleInstall +qall
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+mkdir $HOME/.nvm
 ```
 
 ### iTerm settings
