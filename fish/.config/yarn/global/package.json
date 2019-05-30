@@ -5,7 +5,7 @@
     "create-next-app": "^0.5.9",
     "create-react-app": "^2.0.4",
     "create-react-native-app": "^0.0.6",
-    "expo-cli": "^2.3.8",
+    "expo-cli": "^2.18.5",
     "ganache-cli": "^6.1.0",
     "gatsby-cli": "^1.1.58",
     "git-mob": "^0.6.0",
