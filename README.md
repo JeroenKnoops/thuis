@@ -20,6 +20,7 @@ brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
 brew cask install java 
 brew cask install slack 
+brew cask install insomnia 
 echo `which fish` >> /etc/shells
 chsh -s `which fish`
 cd $HOME
