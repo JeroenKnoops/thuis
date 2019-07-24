@@ -36,3 +36,7 @@ mkdir $HOME/.nvm
 ### iTerm settings
 Load configuration from file.
 General > Load preferences from a custom folder or URL: ~/thuis/profile
+
+## TODO
+
+Add fork.dev
